@@ -1,0 +1,235 @@
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+.carousel-inner{
+  position: relative;
+  bottom: 17vh;
+}
+
+.Contain_Heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Heading {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 49px;
+  position: absolute;
+  background-color: transparent;
+  position: relative;
+  bottom: 72vh;
+}
+
+.SubHeading {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  position: relative;
+  bottom: 72vh;
+  
+}
+
+.button {
+  background-color: rgb(165, 136, 38); 
+  font-size: x-large;
+  border-radius: 20px;
+  position: absolute;
+  position: relative;
+  bottom: 72vh;
+  left: 44vw;
+  color: white; 
+}
+
+.SubButton {
+  margin: 10px 50px 10px 50px;
+  font-weight: bold;
+}
+
+.full-video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+.d-block {
+  margin-top: -72px;
+  width: 1519px;
+  height: 102vh;
+}
+
+.boxIcons {
+  /* border: 2px solid white; */
+  height: 10vh;
+  width: 60vw;
+  position: relative;
+  left: 19vw;
+  bottom: 21vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxIcons img {
+  height: 56px;
+  width: 69px;
+  margin: 0px 10px;
+}
+
+button{
+  color:white;
+  margin: 10px ;
+  margin-bottom: 20px;
+  background-color: rgb(46, 42, 42);
+}
+
+.Maincontainer-multiple-img{
+  display: flex;
+  margin-left: 50px;
+  position: relative;
+  bottom: 10vh;
+}
+
+.container-multiple-img{
+  /* border: 2px solid white; */
+  height: 55vh;
+  width: 28vw; 
+}
+
+
+.container-multiple-img2{
+  /* border: 2px solid white; */
+  height: 55vh;
+  width: 28vw;
+  margin-left: 60px;
+}
+
+.container-multiple-img3{
+  /* border: 2px solid white; */
+  height: 55vh;
+  width: 28vw;
+  margin-left: 60px;
+}
+
+.multiple-img{
+  height: 33vh;
+}
+
+.multiple-img2{
+  height: 32vh;
+  width: 28vw;
+}
+
+.multiple-img3{
+  height: 33vh;
+}
+
+.card-maintitle{
+  color: #78a6b8;
+  margin-left: 20vh;
+}
+
+.card-title{
+  color: white;
+  font-weight: 700;
+  font-size:x-large;
+  margin-left: 25px;
+}
+
+.card-text{
+  color: white;
+  margin-left: 20px;
+}
+
+.papular-upcoming{
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  width: 60%;
+  text-align: start;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+#seasonCarousel {
+  margin-left: 13vw;
+}
+
+.season-card {
+  position: relative;
+  bottom: 10vh;
+  margin-left: 5vh;
+}
+
+.text-white {
+  position: relative;
+  top: 20vh;
+  z-index: 1;
+}
+
+.carousel-item {
+  position: relative;
+  bottom: 13vh;
+}
+
+
+#movieCarousel {
+  position: relative;
+  top: -4vh;
+  left: 7vw;
+}
+
+.carousel-item {
+  position: relative;
+  bottom: -10vh;
+}
+
+.movie-card{
+  position: relative;
+  left: 10vh;
+  bottom: 9vh;
+}
+
+.text-white{
+  color:white;
+  position: relative;
+  right: 40px;
+}
+.carousel-item {
+  margin-top: 30px;
+}
+
+.carousel-inner {
+  position: relative;
+  bottom: 4vh;
+} 
+
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px; 
+}
+.region {
+  flex: 1 1 200px;
+  margin: 10px;
+
+}
+.region h3 {
+  color: #FFD700; 
+}
+.region ul {
+  list-style-type: none;
+  padding: 0;
+}
+.region ul li {
+  color: #add8e6; 
+}
