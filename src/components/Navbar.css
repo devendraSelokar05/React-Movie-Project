@@ -1,0 +1,87 @@
+/* Navbar container styling */
+.navbar {
+    height: 40px;
+    background-color: transparent; /* Fully transparent background */
+    padding: 0.8rem 1.5rem;
+    box-shadow: none; /* Removing box shadow to keep the background minimal */
+    position: fixed; /* Fixing navbar to the top for a sleek look */
+    width: 100%; /* Ensures it spans the full width of the page */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+/* Button size adjustment */
+.btn {
+    height: 40px;
+}
+
+/* Navbar links */
+.navbar .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.4rem 0.9rem;
+    color: white; /* White color for text */
+    transition: color 0.4s ease, background-color 0.4s ease, transform 0.4s ease; /* Adding transform for cool hover effect */
+}
+
+/* Hover effect for links */
+.navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    color: #ffca28; /* Yellow color on hover */
+    border-radius: 6px; /* Rounded corners */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow on hover */
+}
+
+/* Active link style */
+.navbar .nav-link.active {
+    margin-top: 30px;
+    color: #ffca28;
+    background-color: transparent; /* Keep active page highlighted */
+    border-radius: 6px;
+}
+
+/* Search input styling */
+.form-control {
+    position: relative;
+    top: 25px;
+    height: 35px;
+    width: 150px; /* Default width */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.4rem;
+    transition: all 0.4s ease; /* Smooth transition for expansion */
+    background-color: transparent;
+    color: white; /* White text color */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+}
+
+/* Expand search bar on focus */
+.form-control:focus {
+    width: 250px; /* Expands when focused */
+    border-color: white; /* Yellow border on focus */
+    box-shadow: 0 0 8px rgba(255, 202, 40, 0.6); /* Add a glowing yellow shadow */
+    outline: none; /* Remove default outline */
+}
+
+/* Placeholder styling */
+.form-control::placeholder {
+    color:(255, 255, 255, 0.7); /* Lighter white placeholder */
+}
+
+/* Search button styling */
+.btn-outline-success {
+    position: relative;
+top: 18px;
+    height: 32px;
+    border-color: #ffca28;
+    color: #ffca28; /* Yellow text */
+    padding: 0.4rem 0.9rem;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
+}
+
+/* Hover effect for search button */
+.btn-outline-success:hover {
+    background-color: #ffca28;
+    color: #333; /* Darker text on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}

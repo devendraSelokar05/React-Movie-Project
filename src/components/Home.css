@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.carousel-item {
+  position: relative;
+  bottom: -8vh;
+}
 
 
 .carousel-inner{
@@ -38,7 +42,7 @@ body {
   
 }
 
-.button {
+/* .button {
   background-color: rgb(165, 136, 38); 
   font-size: x-large;
   border-radius: 20px;
@@ -52,7 +56,61 @@ body {
 .SubButton {
   margin: 10px 50px 10px 50px;
   font-weight: bold;
+} */
+
+.button {
+  background: linear-gradient(45deg, rgb(165, 136, 38), rgb(215, 176, 78)); /* Gradient background */
+  font-size: x-large;
+  border-radius: 20px;
+  height: 50px;
+  width: 20vw;
+  position: absolute;
+  bottom: 28vh;
+  left: 40vw;
+  color: white;
+  padding: 10px 30px;
+  border: 3px solid transparent;
+  transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  animation: pulse 2s infinite; /* Cool pulse animation */
 }
+
+.button:hover {
+  background: linear-gradient(45deg, rgb(215, 176, 78), rgb(165, 136, 38)); /* Reverse gradient on hover */
+  border: 3px solid rgba(255, 255, 255, 0.8); /* Glowing border */
+  transform: scale(1.15); /* Larger pop on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Bigger shadow on hover */
+}
+
+.SubButton {
+  margin: -10px 50px;
+  
+  font-weight: bold;
+  color: inherit; /* Inherit button color */
+  transition: color 0.4s ease, letter-spacing 0.4s ease;
+}
+
+.button:hover .SubButton {
+  color: #fff; /* Pure white text on hover */
+  letter-spacing: 3px; /* Subtle increase in letter spacing */
+}
+
+/* Pulse animation for a cool breathing effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
 
 .full-video {
   height: 100vh;
