@@ -1,0 +1,127 @@
+body {
+    background-color: #111924;
+  }
+  
+  .card {
+    background-color: #111924;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #2e2f2f;
+  }
+  
+  .info h1 {
+    font-size: 1.5rem;
+  }
+  
+  .year {
+    color: #637083;
+  }
+  
+  .rank {
+    font-size: 1.5rem;
+    color: yellowgreen;
+  }
+  
+  .rank .change {
+    padding: 4px 6px;
+    color: green;
+    border: 2px solid #1F5724;
+    border-radius: 20px;
+  }
+  
+  .image {
+    position: relative;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(96, 99, 101, 0.982);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .play-button:hover {
+    background-color: rgba(63, 78, 63, 0.8);
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  .image i:hover {
+    color: rgb(63, 78, 63);
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttons a {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #17202d;
+    border-radius: 20px;
+    border: 2px solid #182435;
+  }
+  
+  .buttons a:hover {
+    background-color: grey;
+  }
+  
+  .card {
+    height: 100%;
+    width: auto;
+  }
+  
+  .card-text {
+    color: grey;
+    font-size: 1rem;
+  }
+  
+  .uniform-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 220px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 1vw;
+  }
+  
+  .uniform-btn:hover {
+    background-color: #475260;
+    color: white;
+  }
+  
+  .watch-section {
+    background-color: #111924;
+    border: 2px solid #494a4b;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10vw;
+  }
+  
+  .watch-option {
+    background-color: #111924;
+    color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .watch-option:hover {
+    background-color: #15263e;
+  }

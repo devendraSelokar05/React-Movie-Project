@@ -1,0 +1,37 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.region {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.region h3 {
+    color: #FFD700; 
+}
+.region ul {
+    list-style-type: none;
+    padding: 0;
+}
+.region ul li {
+    color: #add8e6; }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .region {
+        width: 100%;
+        max-width: 400px;
+    }
+} */

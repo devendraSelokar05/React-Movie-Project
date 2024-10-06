@@ -1,20 +1,26 @@
-.TV{
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+.TV {
     width: 50vw;
     height: 5vh;
-    margin-left: 3%;
+    margin-left: 3vw;
     margin-top: 1%;
     font-weight: bolder;
 }
 
-p{
+p {
     font-size: 17px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 1%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1%;
     margin-left: 3%;
 }
 
-.main-container{
+.main-container {
     width: 95%;
 }
 
@@ -22,22 +28,20 @@ p{
     max-height: 200px;
     object-fit: contain;
 }
-  
-.carousel {
-    margin-bottom: 20px;
+
+.logo {
+    margin-top: 10%;
 }
 
-.logo{
-    margin-top: 5%;
-}
-
-.title{
+.title {
     font-size: 20px;
     margin-left: 3%;
     margin-top: 50px;
+    text-align: center;
 }
 
-button{
+/* Button Styles */
+button {
     padding: 6px;
     margin: 15px 20px;
     border-radius: 5px;
@@ -45,85 +49,90 @@ button{
     border: none;
     background-color: rgb(244, 180, 59);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
     cursor: pointer;
-    
 }
 
 button:hover {
-    /* background-color: #ffcc00;  */
-    transform: scale(0.9);
+    background-color: #ffcc00;
+    transform: scale(0.95);
 }
 
-.fav{
+.fav {
     margin-top: 3%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-
+/* Updated Card Body */
 .card-body {
-    margin-top: 5%;
-    margin-left: 3%;
+    margin: 2vw auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 4 images per row */
-    grid-gap: 10px;
-    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    grid-gap: 20px; /* Increased gap for better spacing */
+    width: 90%;
+    cursor: pointer;
 }
 
+/* Updated Card Images */
 .card-body img {
     height: 300px;
-    width: 250px; /* Ensures images fit within the grid cells */
+    width:  100%; /* Ensure images take full width of grid cell */
+    object-fit: cover; /* Ensures the image fits well without distortion */
+    /* border-radius: 10px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
-.card-body img:hover{
-    transform: scale(1.05);
-    transition: 0.9 ease;
-    
+.card-body img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
 }
 
+/* Button Container Styles */
 .button-container {
     margin-top: 5%;
 }
 
 .custom-btn {
-    width: 150px; /* Set desired width */
-    height: 50px; /* Set desired height */
-    font-size: 18px; /* Adjust font size */
-    margin: 0 10px; /* Adjust space between buttons */
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 10px;
 }
 
+/* Primary Button Styles */
 .btn-primary {
     background-color: rgb(244, 180, 59);
     color: black;
 }
 
+/* Secondary Button Styles */
 .btn-secondary {
-    background-color:  rgb(244, 180, 59) ;
+    background-color: rgb(244, 180, 59);
     color: black;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 5px;
     text-align: center;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Offcanvas Header Styling */
 .offcanvas-header {
     background-color: rgb(244, 180, 59);
 }
 
-.login{
+/* Login Button Styles */
+.login {
     height: 50px;
-    padding: 10px 30px; /* Adjust the padding as needed */
-    font-size: 16px; 
-    /* color: black; */
-    background-color:  rgb(244, 180, 59);;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(244, 180, 59);
     text-decoration: none;
+    cursor: pointer;
 }
 
-.custom-btn{
-    text-decoration: none;
+/* Remove text decoration for custom buttons */
+.custom-btn {
+    text-decoration: none;
 }
-
-
-  

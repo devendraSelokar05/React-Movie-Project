@@ -1,25 +1,26 @@
 .contact-container {
   height: 100vh;
-  background: url('https://png.pngtree.com/thumb_back/fh260/background/20230129/pngtree-modern-abstract-background-with-waves-line-in-yellow-and-orange-gradients-image_1540566.jpg') no-repeat center center;
+  background: url('https://img.freepik.com/premium-photo/paper-cup-with-popcorn-movie-clapper-yellow-background-place-text_178193-843.jpg') no-repeat center center;
   background-size: cover;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 0;
 }
 
 .wrapper{
+ 
   width: 420px;
   background-color: transparent;
   border: 2px solid rgba(225, 225, 225, .50);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, .50);
-  margin-left: 35%;
+  margin-left: 60%;
   border-radius: 10px;
   padding: 30px 40px;
   position: relative;
   z-index: 10;
-  margin-left: auto;
-  margin-right: auto;
-  top: 10%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  top: 20%;
 }
 
 .wrapper h1{
@@ -43,7 +44,7 @@
   border: 2px solid white;
   border-radius: 40px;
   font-size: 16px;
-  color: white;
+  color: black;
   padding:  20px 45px 20px 20px;
 }
 
