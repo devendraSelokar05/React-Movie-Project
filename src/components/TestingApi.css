@@ -1,0 +1,256 @@
+body {
+  background-color:#111924;
+}
+
+.card {
+  background-color: #111924;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #2e2f2f;
+}
+
+.info h1 {
+  font-size: 1.5rem;
+}
+
+.year {
+  color: #637083;
+}
+
+.rank {
+  font-size:1.5vw;
+  color: yellowgreen;
+}
+
+.rank .change {
+  padding: 4px 6px;
+  color: green;
+  border: 2px solid #1F5724;
+  border-radius: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.image i:hover {
+  color: rgb(63, 78, 63);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(96, 99, 101, 0.982);
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.play-button:hover {
+  background-color: rgba(63, 78, 63, 0.8);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+
+
+
+.buttons a {
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #17202d;
+  border-radius: 20px;
+  border: 2px solid #182435;
+}
+
+.buttons a:hover {
+  background-color: grey;
+  color:white
+}
+
+.action-card{
+  background-color: #111924;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #2e2f2f;
+  height: auto;
+  width: 100%;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  /* padding: 0px 30px; */
+}
+
+
+.action-card-text {
+  color: grey;
+  font-size: 1rem;
+}
+
+.uniform-btn {
+  padding: 15px 20px;
+  margin-left: 1vw;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 265px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 1vw;
+}
+
+.uniform-btn:hover {
+  background-color: #475260;
+  color: white;
+}
+
+.watch-section {
+  background-color: #111924;
+  border: 2px solid #494a4b;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+
+.watch-option {
+  background-color: #111924;
+  color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.watch-option:hover {
+  background-color: #15263e;
+}
+
+.about-card:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+.season-card {
+  background-color: #111924;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #3d4141;
+  display: flex;
+  align-items: center;
+  width:230px;
+  height: 120px;
+  cursor: pointer;
+  
+}
+
+.season-card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.season-card img {
+  width: 90px;
+  height: 100px;
+  border-radius: 10px;
+  /* padding: 20px; */
+  
+}
+
+.season-info {
+  margin-left: 19px;
+}
+
+
+
+
+.season-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00a2ed;
+}
+
+.season-title a {
+  text-decoration: none;
+  color: #00a2ed;
+}
+
+.season-title a:hover {
+  text-decoration: underline;
+}
+
+.episode-count {
+  color: lightgray;
+  font-size: 1rem;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  scroll-behavior: smooth;
+  gap: 20px;
+  /* margin-left: 2vw; */
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* .scroll-button {
+  background-color: rgba(73, 255, 200, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1;
+} */
+
+
+
+
+@media (max-width: 768px) {
+  .scroll-button {
+    width: 35px;
+    height: 35px;
+  }
+  .scroll-button.left {
+    left: 50px;
+  }
+  .scroll-button.right {
+    right: 20px;
+  }
+}
+
+/* Responsive adjustments for mobile screens (480px and below) */
+@media (max-width: 480px) {
+  .scroll-button {
+    width: 30px;
+    height: 30px;
+  }
+  .scroll-button.left {
+    left: 20px;
+  }
+  .scroll-button.right {
+    right: 10px;
+  }
+}

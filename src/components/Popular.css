@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111924;
+}
+.TV {
+    width: 50vw;
+    height: 5vh;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2vw;
+    margin-left: 3%;
+}
+
+.main-container {
+    width: 95%;
+}
+
+.carousel .slide img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.logo {
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.title button {
+    padding: 6px;
+    margin: 15px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(244, 180, 59);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    cursor: pointer;
+}
+
+.title button:hover {
+    background-color: #ffcc00;
+    transform: scale(0.95);
+}
+
+.fav {
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Updated Card Body */
+.card-body {
+    margin: 2vw auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    grid-gap: 20px; /* Increased gap for better spacing */
+    width: 90%;
+    cursor: pointer;
+}
+
+/* Updated Card Images */
+.card-body img {
+    height: 300px;
+    width:  220px; 
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.card-body img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
+/* Button Container Styles */
+.button-container {
+    margin-top: 5%;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* Primary Button Styles */
+.btn-primary {
+    background-color: rgb(244, 180, 59);
+    color: black;
+}
+
+/* Secondary Button Styles */
+.btn-secondary {
+    background-color: rgb(244, 180, 59);
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Offcanvas Header Styling */
+.offcanvas-header {
+    background-color: rgb(244, 180, 59);
+}
+
+/* Login Button Styles */
+.login {
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(244, 180, 59);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Remove text decoration for custom buttons */
+.custom-btn {
+    text-decoration: none;
+}
