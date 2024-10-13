@@ -49,24 +49,25 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content:center; 
-    width: 95vw;
+    justify-content:space-between; 
+    width: 90vw;
     margin-top: 30px;
     cursor: pointer;
+    margin-left: 30px;
+    /* gap: 100px; */
     
   }
   
   .newmovie-card {
-   
-    /* margin:0px 20px; */
-    margin-left: 30px;
-    max-width: 200px; 
-    box-shadow: 2px 2px 10px #929cac;
+    max-width: 350px; 
+    box-shadow: 2px 2px 10px #567dbb;
     transition: transform 0.3s ease;
+    margin-bottom: 15px
+    /* margin: 0px -30px; */
   }
   
   .newmovie-card img {
-    width: 220px; 
+    width: 210px; 
     height: 300px;
     transition: transform 0.9s ease;
     object-fit:cover;
