@@ -122,10 +122,10 @@ const NewMovies = () => {
       <Link href="http://localhost:3000/Newmovies" className="reset"> RESET</Link>
     </div>
   
-    <div className="all-newmovie-cards">
-  <div className="row g-4">
+    <div className="all-newmovie-cards ">
+  <div className="row g-4 ">
     {movies.map(movie => (
-      <div className="col-6 col-sm-4 col-md-3 col-lg-2" key={movie.id}>
+      <div className="col-6 col-sm-4 col-md-3 col-lg-2 " key={movie.id}>
         <div className="newmovie-card" onClick={() => redirectToMovieDetails(movie.id)}>
           <img 
             src={movie.posterImage} 

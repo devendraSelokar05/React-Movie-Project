@@ -215,42 +215,8 @@ body {
   display: none;
 }
 
-/* .scroll-button {
-  background-color: rgba(73, 255, 200, 0.7);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 1;
-} */
 
 
 
 
-@media (max-width: 768px) {
-  .scroll-button {
-    width: 35px;
-    height: 35px;
-  }
-  .scroll-button.left {
-    left: 50px;
-  }
-  .scroll-button.right {
-    right: 20px;
-  }
-}
 
-/* Responsive adjustments for mobile screens (480px and below) */
-@media (max-width: 480px) {
-  .scroll-button {
-    width: 30px;
-    height: 30px;
-  }
-  .scroll-button.left {
-    left: 20px;
-  }
-  .scroll-button.right {
-    right: 10px;
-  }
-}

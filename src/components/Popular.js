@@ -15,7 +15,7 @@ const Popular = () => {
 
     const fetchMovies = async () => {
         try {
-            const response = await fetch('https://popular-movie.vercel.app/api/Popular-movies');
+            const response = await fetch('https://movie-data-blond.vercel.app/api/Popular-movies');
             const data = await response.json();
             setMovies(data); // Set movies data in state
         } catch (error) {
