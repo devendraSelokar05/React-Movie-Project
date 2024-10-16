@@ -25,7 +25,7 @@ const Popular = () => {
 
     const redirectToMovieDetails = (id) => {
         console.log('Redirecting to movie details for ID:', id);
-        navigate(`/TestingApi?movieId=${id}`);
+        navigate(`/ArpitaApi?movieId=${id}`);
     };
 
     return (
@@ -111,5 +111,6 @@ const Popular = () => {
     
     );
 }
-
 export default Popular;
+
+
