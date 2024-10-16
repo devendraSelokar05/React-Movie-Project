@@ -49,21 +49,22 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content:space-between; 
+    justify-content:space-evenly; 
     width: 90vw;
     margin-top: 30px;
+    margin-left: 50px;
     cursor: pointer;
-    margin-left: 30px;
-    /* gap: 100px; */
+
+
     
   }
   
   .newmovie-card {
     max-width: 350px; 
-    box-shadow: 2px 2px 10px #567dbb;
+    box-shadow: 2px 2px 20px #5b6370;
     transition: transform 0.3s ease;
-    margin-bottom: 15px
-    /* margin: 0px -30px; */
+    margin-bottom: 20px;
+  
   }
   
   .newmovie-card img {
@@ -71,25 +72,14 @@ body {
     height: 300px;
     transition: transform 0.9s ease;
     object-fit:cover;
+  
   } 
   
   .newmovie-card:hover {
     transform: scale(1.1); 
     transition: transform 0.2s ease;
   }
-  
-  @media (max-width: 768px) {
-    .card {
-      flex: 1 1 45%; 
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .card {
-      flex: 1 1 100%; /* Full width for small screens */
-      margin: 5px;
-    }
-  }
+
   
   
   

@@ -5,6 +5,7 @@ import NewMovies from "./components/NewMovies";
 import Popular from "./components/Popular";
 import Contact from "./components/Contact";
 import TestingApi from "./components/TestingApi";
+import ArpitaApi from "./components/ArpitaApi";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/popular" element={<Popular />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/TestingApi" element={<TestingApi />} />
+          <Route path="/ArpitaApi" element={<ArpitaApi />} />
+
         </Routes>
       </BrowserRouter>
 
