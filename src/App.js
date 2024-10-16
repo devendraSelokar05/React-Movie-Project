@@ -19,10 +19,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/TestingApi" element={<TestingApi />} />
           <Route path="/ArpitaApi" element={<ArpitaApi />} />
-
         </Routes>
       </BrowserRouter>
-
     </>
   );
 }
